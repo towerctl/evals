@@ -1,6 +1,7 @@
-from evals.main import SCORES, handle_completed, score_run
 from towerctl_core.events import RUN_COMPLETED, Event
 from towerctl_core.models import AgentSpec, Run
+
+from evals.main import SCORES, handle_completed, score_run
 
 
 def test_score_run():
